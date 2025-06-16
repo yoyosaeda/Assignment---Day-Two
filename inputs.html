@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inputs</title>
+    <link rel="stylesheet" href="styleInputs.css" />
+  </head>
+
+  <body>
+    <h2>Jop Application</h2>
+    <form action="#">
+      <div class="flex">
+        <div>
+          <label for="fname">First Name: </label>
+          <input type="text" id="fname" />
+        </div>
+        <div>
+          <label for="lname">Last Name: </label>
+          <input type="text" id="lname" />
+        </div>
+        <div>
+          <label for="email">Email: </label>
+          <input type="email" id="email" />
+        </div>
+        <div>
+          <label for="phone">Phone: </label>
+          <input type="number" id="pphone" />
+        </div>
+      </div>
+
+      <div class="flex">
+        <div>
+          <label for="uni">Unevirsty: </label>
+          <select id="uni">
+            <option>universty one</option>
+            <option>universty two</option>
+            <option>universty three</option>
+            <option>universty four</option>
+            <option>universty five</option>
+          </select>
+        </div>
+        <div>
+          <label for="birth">Birth Date: </label>
+          <input type="date" id="birth" />
+        </div>
+        <div>
+          <label for="img">Image: </label>
+          <span>(Must be 4 * 6)</span>
+          <input type="file" id="img" />
+        </div>
+      </div>
+      <div class="center">
+        <label for="area">About yourself</label>
+        <textarea id="area" cols="60" rows="4">About yourself</textarea>
+      </div>
+      <div class="centerD">
+        <input type="submit" value="Submit" class="btn">
+      </div>
+    </form>
+  </body>
+</html>

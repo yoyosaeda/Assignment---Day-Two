@@ -1,0 +1,54 @@
+body {
+  background-color:teal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+  text-align: center;
+  color:#eee;
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+label {
+  color: #eee;
+}
+form .flex {
+  display: flex;
+  justify-content: space-between;
+}
+form .center {
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form .center label{
+  margin-right: 20px;
+}
+form div {
+  margin: 20px;
+}
+form div span {
+  font-size: 13px;
+  color:rgba(255, 255, 255, 0.347);
+}
+
+input {
+  background-color: #eee;
+  border: none;
+  margin-right: 50px;
+}
+
+form .btn {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+}
+
+.centerD {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
